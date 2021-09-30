@@ -18,7 +18,7 @@ ADD_EXECUTABLE(c-echo
 )
 
 ADD_EXECUTABLE(test
-	src/text.cpp
+	src/test.cpp
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
